@@ -9,7 +9,8 @@ FOR RUNNING FRONTEND PART
 
 1. Open the project in VS Code.
 2. Open the new terminal (For running the project frontend we should have to open terminal).
-3. Check whether is it in frontend folder or not (in my system)
+3. After opening the terminal makesure to install the nodemodules folder. For that type command - npm i
+4. Check whether is it in frontend folder or not (in my system)
     It Looks Like :- PS F:\kartheeek\myproject\Frontend> 
     then Type this command - npm start
     It looks like :- PS F:\kartheeek\myproject\Frontend>npm start
