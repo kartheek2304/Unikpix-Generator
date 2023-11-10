@@ -1,0 +1,23 @@
+.maintc{
+    background-color: black;
+    padding-bottom: 0.2px;
+}
+.maintc img{
+    margin-bottom: 20px;
+}
+.maintc h3{
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+.maintc h4{
+    color: #ff3366;
+    text-align: justify;
+    margin: 10px;
+}
+.maintc ol li{
+    color: skyblue;
+    text-align: justify;
+    margin: 10px;
+    list-style-type: disc;
+}

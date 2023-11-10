@@ -1,0 +1,180 @@
+.landing-page {
+    /* background-image: url(../images/back.jpg); */
+    background-image: url(../images/back.webp);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoimg{
+    /* margin-top: -80px; */
+    /* margin-bottom: -60px; */
+    /* border-radius: 50%; */
+    height: 25vh;
+    width: 40vh;
+    /* margin-bottom: 15px; */
+  }
+  .overlay {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-color: rgba(10, 10, 10, 0.7);
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  @media screen and (max-width:390px) {
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      /* background-color: rgba(250, 250, 250, 0.3); */
+      text-align: center;
+      margin:-5px auto;
+      padding: 0.01rem;
+      width: max-content;
+    }
+    .title {
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .subtitle {
+      color: white;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+@media screen and (min-width:390px) and (max-width:450px) {
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: rgba(250, 250, 250, 0.3); */
+    text-align: center;
+    padding: 1rem;
+    width: max-content;
+  }
+  
+  .title {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-3 {
+    background: #ff3366;
+  background: linear-gradient(0deg, #ff3366 0%, #ff3366 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: #ff3366;
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: #ff3366;
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: #ff3366;
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
