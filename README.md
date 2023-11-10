@@ -4,11 +4,15 @@ FOR RUNNING FRONTEND PART
 
 1. Open the project in VS Code.
 2. Open the new terminal (For running the project frontend we should have to open terminal).
-3. Check whether is it in frontend folder or not
+3. Check whether is it in frontend folder or not (in my system)
     It Looks Like :- PS F:\kartheeek\myproject\Frontend> 
     then Type this command - npm start
     It looks like :- PS F:\kartheeek\myproject\Frontend>npm start
-4. The project will be open in the chrome.
+   Make sure you have choosen the correct path in your system.
+5. The project will be open in the chrome.
+6. The folders that are uploaded for only reference.
+7. make sure about u r folders and copy the code u want to that particular file.
+8. The Folders that i had uploaded is not mandatory u can change according to yourself.
 
 
 
